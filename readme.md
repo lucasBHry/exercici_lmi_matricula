@@ -38,7 +38,7 @@ Conté el formulari amb la matrícula. En ell es demanaran:
 * **dni** (obligatori)
 * **email**, (oblligatori, i ben formatat)
 * **adreça**,
-* **telèfon**, 
+* **telèfon**,
 * **cicle** (desplegable amb les opcions mínimes DAM/DAW), 
 * **curs** (radiobuttons per triar entre 1r/2n)
 * **llista de mòduls** del curs en el què es va a matricular, (serà una llista de checkboxes, un per mòdul).
@@ -64,3 +64,7 @@ A la carpeta `exemplesFitxers` disposeu de diferents exemples sobre els fitxers 
 Al llarg del projecte, disposeu dels diferents TO-DOs que caldrà completar.
 
 Per tal de provar les ordres xsltproc i fop, podeu fer-ho directament des de la terminal i provar els vostres fitxers de transformació, per assegurar-vos del seu correcte funcionament.
+
+## Exemple de formulari complet
+
+![](img/formulari.png)
