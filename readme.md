@@ -7,19 +7,22 @@ Per a això, generarem una aplicació amb ExpressJS que contindrà un forulari H
 L'estructura del projecte serà la següent:
 
 ```text
-/matricula_institut
-├── /backend
-│   ├── server.js
-│   ├── /public
-│   │   └── index.html (formulari de matrícula)
-│   │   └── /js 
-│   │        └── index.js
-│   ├── /uploads
-│   │   └── (per guardar XML temporals)
-│   ├── /xslt
-│   │   ├── matricula.xsl (XSLT → genera XSL-FO)
-│   └── package.json
-└── README.md
+backend/
+    ├── exemple_matricula.xml
+    ├── index.js                (codi principal del servidor)
+    ├── matricula.pdf
+    ├── node_modules
+    ├── package.json
+    ├── public
+    │   ├── css
+    │   │   └── index.css
+    │   ├── index.html          (formulari de matricula)
+    │   └── js
+    │       └── index.js
+    ├── uploads
+    │   │   └── (per guardar fitxers temporals)
+    └── xslt
+        └── matricula.xsl  (XSLT → genera XSL-FO)
 ```
 
 El formulari s'ubicarà a la carpeta `public` del backend, que és on solen ubicar-se les pàgines web que serveix el servidor (és a dir, el backend). Configurarem el servidor amb el middleware Static per a que servisca el contingut d'aquesta carpeta.
@@ -52,3 +55,12 @@ El servidor:
 * Converteix l'XSL-FO a PDF (fent una crida a Apache FOP via child_process).
 * Envia el PDF al navegador perquè el descarregue.
 
+## Exemples
+
+A la carpeta `exemplesFitxers` disposeu de diferents exemples sobre els fitxers que caldrà generar.
+
+## TO-DO
+
+Al llarg del projecte, disposeu dels diferents TO-DOs que caldrà completar.
+
+Per tal de provar les ordres xsltproc i fop, podeu fer-ho directament des de la terminal i provar els vostres fitxers de transformació, per assegurar-vos del seu correcte funcionament.
