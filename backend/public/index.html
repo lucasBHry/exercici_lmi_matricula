@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrícula Institut</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1>Formulari de matrícula</h1>
+
+    <form id="matriculaForm">
+        <fieldset>
+            <legend>Dades personals</legend>
+
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required><br>
+
+            <!-- TO-DO
+            
+            * Definir els camps de formulari:
+
+              * Cognoms (obligatori)
+              * Correu electrònic (obligatori i en format de correu electrónic)
+              * adreça
+              * Telèfon
+
+            -->
+        </fieldset>
+
+        <fieldset>
+            <legend>Estudis</legend>
+            <!--  TO-DO:
+              
+                Definir els següents camps de formulari:
+
+                * Select pe al cicle, amb les opcions DAM i DAW
+                * Curs: Amb dos inputs de tipus Radio per triar 1r o 2n.
+
+            -->
+
+        </fieldset>
+
+        <fieldset id="modulsFieldset">
+            <legend>Mòduls Professionals</legend>
+            <!-- Els checkboxes dels mòduls es generaran dinàmicament -->
+        </fieldset>
+
+        <button type="submit">Enviar matrícula</button>
+    </form>
+
+    <script src="js/index.js" type="module"></script>
+</body>
+</html>
