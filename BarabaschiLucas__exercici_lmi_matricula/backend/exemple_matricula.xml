@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matricula>
+  <alumne>
+    <nom>Anna</nom>
+    <cognoms>García López</cognoms>
+    <email>anna@example.com</email>
+    <adreca>C/ de la Pau, 12</adreca>
+    <telefon>123456789</telefon>
+  </alumne>
+  <cicle>DAM</cicle>
+  <curs>1</curs>
+  <moduls>
+    <modul>Programació</modul>
+    <modul>Bases de Dades</modul>
+    <modul>Entorns de Desenvolupament</modul>
+  </moduls>
+</matricula>

@@ -1,0 +1,22 @@
+
+<matricula>
+  <alumne>
+    <nom>el meu nom</nom>
+    <cognoms>cognoms</cognoms>
+    <email>correu@serv.com</email>
+    <adreca>c/ Tralari</adreca>
+    <telefon>123</telefon>
+  </alumne>
+  <cicle>DAM</cicle>
+  <curs>2</curs>
+  <moduls>
+    <modul>Accés a Dades</modul>
+<modul>Desenvolupament d'Interfícies</modul>
+<modul>Programació Multimèdia i Dispositius mòbils</modul>
+<modul>Programació de Serveis i Processos</modul>
+<modul>Sistemes de Gestió Emprssarial</modul>
+<modul>Projecte Intermodular II</modul>
+<modul>Itinerari Personal per a l'Ocupabilitat II</modul>
+  </moduls>
+</matricula>
+    
